@@ -6,26 +6,134 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <caption>Sample Table</caption>
+    <table class="schedule" border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <caption>Hogwarts schedule</caption>
         <thead>
             <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
+                <th scope="col">Time</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                
             </tr>
+        </thead>
             <tbody>
                 <tr>
-                    <td>Data 1</td>
-                    <td>Data 2</td>
+                    <th scope="row">07:30 -
+                        08:30
+                    </th>
+                    <td>Breakfast</td>
+                    <td>Breakfast</td>
+                    <td>Breakfast</td>
+                    <td>Breakfast</td>
+                    <td>Breakfast</td>
+                    
+
                 </tr>
         <tr>
-            <td>Name</td>
-            <td>Age</td>
+            <th scope="row">09:00 - 10:00</th>
+            <td>Transfiguration</td>
+            <td>Herbology</td>
+            <td>Charms</td>
+            <td>History of Magic</td>
+            <td>Potions</td>
+            
         </tr>
         <tr>
-            <td>John</td>
-            <td>30</td>
+            <th scope="row">10:05 - 11:10</th>
+            <td>Transfiguration</td>
+            <td>Herbology</td>
+            <td>Charms</td>
+            <td>History of Magic</td>
+            <td>Potions</td>
+                
+            
         </tr>
+        <tr>
+            <th scope="row">11:10 - 11:30</th>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <th scope="row">11:30 - 12:30</th>
+            <td>D.A.D.A</td>
+            <td>History of Magic</td>
+            <td>Herbology</td>
+            <td>D.A.D.A</td>
+            <td>Potions</td>
+            
+        </tr>
+        <tr>
+            <th scope="row">12:30 - 13:30</th>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            
+        </tr>
+        <tr>
+            <th scope="row">13:30 - 14:30</th>
+            <td>Charms</td>
+            <td>Transfiguration</td>
+            <td>D.A.D.A</td>
+            <td>Herbology</td>
+            <td>History of Magic</td>
+                
+        </tr>
+        <tr>
+            <th scope="row">14:30 - 15:30</th>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            
+        </tr>
+        <tr>
+            <th scope="row">15:30 - 16:30</th>
+            <td>Potions</td>
+            <td>Charms</td>
+            <td>Transfiguration</td>
+            <td>D.A.D.A</td>
+            <td>Herbology</td>
+            
+        </tr>
+        <tr>
+            <th scope="row">16:30 - 18:00</th>
+            <td>Free Time</td>
+            <td>Free Time</td>
+            <td>Free Time</td>
+            <td>Free Time</td>
+            <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">18:00 - 19:00</th>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">23:00 - 24:00</th>
+                <td>Astronomy</td>
+                              
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Saturday & Sunday: Days Off — Hogsmeade visits & Quidditch practice</td>
+            </tr>   
     </table>
 </body>
 </html>
+<!--Проверка доступно формы предыдущей задачи:
+1. Проверил что поля формы name email select#direction и textarea#message связанны с тегом <label> через атрибуты for и id-
+2. Прошел всю форму клавишей Tab без мыши, Select управляется стрелками, а обязательные поля сообщают об ощибке если попытаться отправить пустую форму--->
