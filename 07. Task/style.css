@@ -1,0 +1,17 @@
+p {
+    color:black;
+}
+
+.note {
+    color: blue;
+}
+
+/*#hint {
+    color: green;
+}*/
+
+.container {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+}
